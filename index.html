@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>北海道への小旅行</title>
+    <link rel="stylesheet" href="hokkaido.css">
+  </head>
+  <body>
+    <header class="header">
+     <div class="container">
+      <div class="site">
+        <img src="C:\Users\81805\OneDrive\ドキュメント\プログラミング\hokkaido_ryoko\image\h-logo.png" alt="">
+        <div>
+          <p class="header-logo">北海道への一人旅行</p>
+          <p class="header-explan">自らの見聞を広げる為の旅</p>
+        </div> <!--タイトル-->
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#">登別温泉と地獄谷（未）</a></li>
+          <li><a href="#">小樽の街並み（未）</a></li>
+          <li><a href="#" class="btn">旅の総括（未）</a></li>
+        </ul>
+      </nav>
+      <button type="button" class="nav-button"
+        onClick="navFunc()">
+        <span class="sr-only">MENU</span>
+      </button>
+     </div>
+    </header>
+
+    <section class="hero">
+     <div class="catch">
+      <div class="container">
+       <h1>
+        <img src="image\hokkaido-logo.svg" alt="hokkaido">
+       </h1>
+       <p>大自然と美味しい食事を満喫出来る場所</p>
+      </div>
+     </div>
+    </section> <!--新千歳空港内の飛行機の写真をバックイメージとして使用-->
+
+    <section class="message">
+      <div class="container">
+        <h2>北海道初心者ならここへ行け<br>楽しさ満点、新千歳空港</h2>
+        <p>施設内には、飲食店はもちろん、映画館や入浴施設もあり、
+          空港内で1日遊んでも飽きません。さらに飲食店も豊富で、
+          北海道といえば、ラーメン！
+          数多くのラーメン店が空港内に集合しており、食べ比べも実現可能。
+          定番のお土産店には、白い恋人や北海道ならではのお土産が沢山。
+          空港の利用だけでなく、ランチやティータイム、ショッピングも
+          十分楽しめる空港です。</p>
+      </div>
+    </section> <!--新千歳空港について記載-->
+
+    <section class="ra-men">
+      <div class="container">
+        <h2>北海道のラーメン特集</h2>
+        <p>実際に食べた３店舗のラーメン紹介</p>
+        <div class="details">
+          <article class="detail hien">
+            <figure></figure>
+            <h3>札幌飛燕<br>(新千歳空港内:北海道ラーメン道場)</h3>
+            <p>食したのは塩ラーメン。焦がしニンニクがこれでもかと言うくらい効いているスープです。
+              塩ラーメンを頼んだのに濃厚すぎて、注文間違ったかなと思ったくらいスープが印象にのこります。
+              食べ終わったあとも、口の中にスープの味が広がり続けるくらい旨味とニンニクが強調されてるスープです。
+              ラーメンは、スープで決まると言われていることを、実感した一品です。
+              強い爆発力を感じたラーメンでした。
+            </p>
+            <a href="https://www.hienn0301.com/hien_sapporo" class="btn">札幌飛燕</a>
+          </article>
+          <article class="detail kuraku">
+            <figure></figure>
+            <h3>北海道ラーメン奥原流 久楽<br>(札幌駅南東)</h3>
+            <p>食したのは白味噌ラーメン。麺に濃厚なスープがよく絡んでいます。
+              くどくない味噌スープの為、スープは飲み続ける事ができ、麺はどんどん食べ進められました。
+              個人的には、味噌スープに浸されたトッピングのメンマがお気に入りです。
+              日本人に馴染みのある味噌を使っている為、心がほっとするラーメンです。</p>
+            <a href="https://www.ramen-kura.jp/access_all.html" class="btn">奥原流 久楽</a>
+          </article>
+          <article class="detail ichigen">
+            <figure></figure>
+            <h3>えびそば一幻<br>(新千歳空港内:北海道ラーメン道場)</h3>
+            <p>食したのは塩ラーメン。えびの旨味がダイレクトに伝わってくるスープが印象に残りました。
+              卵が好きなので、追加トッピングしました。スープと合わせて卵を食べると、とても幸せな気分になりました。
+              えびの旨さと香りがこれでもかと言うくらい強いスープの為、えびが苦手な方は控えた方がいいかもしれません。
+              個人的には、挑戦して欲しいと思うくらい、美味でした。
+              スープで白米が進むのは間違いなしです。
+              15分並びましたが、並んででも食べる価値があるラーメンです。
+            </p>
+            <a href="http://www.ebisoba.com/%E6%96%B0%E5%8D%83%E6%AD%B3%E7%A9%BA%E6%B8%AF%E5%BA%97/" class="btn">えびそば一幻</a>
+          </article>
+        </div>
+      </div>
+    </section> <!--ラーメン特集 3つ-->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="info">
+          <div class="site">
+            <img src="C:\Users\81805\OneDrive\ドキュメント\プログラミング\hokkaido_ryoko\image\h-logo.png" alt="">
+            <div>
+             <p class="corp">北海道への一人旅行</p>
+            </div>
+          </div>
+          <p class="add">
+            〒001-0000<br>
+            北海道札幌市
+          </p>
+        </div>
+        <ul class="sns">
+          <li><a href="#"><img src="image\twitter.Logo.svg" alt="Twitter"></a></li>
+          <li><a href="#"><img src="image\f_logo_RGB-White_1024.png" alt="Facebook"></a></li>
+          <li><a href="#"><img src="image\Instagram-Glyph-White-Logo.wine.svg" alt="Instagram"></a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script>
+      function navFunc() {
+        document.querySelector('html').classList.toggle('open');
+      }
+    </script>
+
+  </body>
+</html>
