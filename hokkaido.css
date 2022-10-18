@@ -219,7 +219,7 @@ html body {
 /*ヒーロー*/
 .hero {
   height:  400px;
-  background-image:url(hokkaido.traval/shintitose.jpg);
+  background-image:url(https://github.com/nobu-22/hokkaido.traval/blob/main/shintitose.jpg?raw=true);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -364,13 +364,13 @@ html body {
   background-size: cover;
 }
 .detail.hien figure {
-  background-image: url(hokkaido.traval/blob/main/ra-men.hien.jpg);
+  background-image: url(https://github.com/nobu-22/hokkaido.traval/blob/main/ra-men.hien.jpg?raw=true);
 }
 .detail.kuraku figure {
-  background-image: url(hokkaido.traval/ra-men.kuraku.jpg);
+  background-image: url(https://github.com/nobu-22/hokkaido.traval/blob/main/ra-men.kuraku.jpg?raw=true);
 }
 .detail.ichigen figure {
-  background-image: url(nobu-22/hokkaido.traval/blob/main/ra-men.ebi.jpg);
+  background-image: url(https://github.com/nobu-22/hokkaido.traval/blob/main/ra-men.ebi.jpg?raw=true);
 }
 
 @media (min-width: 900px) {
